@@ -139,3 +139,14 @@ main{
     position: absolute;
     left: 60%;
 }
+.card-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.percentage{
+    background: linear-gradient(to right top,#65dfc9,#6cbbeb);
+    font-weight: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
